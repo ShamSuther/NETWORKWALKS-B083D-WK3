@@ -8,7 +8,7 @@
 | **Pentester Name** | *Sham Sunder* |
 | **Program/Batch** | *B083 – Networkwalks* |
 | **Date** | *24 September 2026* |
-| **Modules completed** | *W3-PM1<br>W2-PM2* |
+| **Modules completed** | *W3-PM1-2* |
 
 ---
 
@@ -48,14 +48,14 @@ Download *John the Ripper* and *Johnny GUI* from [`openwall.com`](https://www.op
 
 ### Command-Line Equivalent
 
-1. Extract hash and save to hash1.txt:
+1. Extract hash and save to `hash1.txt`:
     - `pdf2john.pl My-Locked-PDF1.pdf > hash1.txt`
 
 2. Cracking the password:
     - `john --wordlist=/usr/share/wordlists/john.lst hash1.txt`
-    - NOTE: If the the wordlist doesn't work you could specify any other wordlist in the `.txt` format.
+    - *NOTE:* If the the wordlist doesn't work you could specify any other wordlist in the `.txt` format.
 
-3. Show result
+3. Show Result:
     - `john --show --format=PDF hash1.txt`
 
 ---
@@ -162,7 +162,7 @@ Johnny GUI
 
 ![PM2_Password_Cracking_PDF_File_3_Passed](<Module 2/4_PC_locked_pdf_3_Passed.JPG>)
 
-*Results: `password1`, Verified!*
+*Results: `qaz2wsx`, Verified!*
 
 ---
 
