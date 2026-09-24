@@ -1,0 +1,4 @@
+Filename, Password, Flag 
+"My Locked PDF1.pdf", good-luck, nw{cybersecurity_flag_captured_2608}
+"My Locked PDF2.pdf", password1, nw{networkwalks_persistence_jtr_270521}
+"My Locked PDF3.pdf", 1qaz2wsx, nw{networkwalks_flag_260821_1
