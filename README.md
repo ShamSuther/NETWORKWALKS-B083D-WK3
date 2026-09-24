@@ -37,8 +37,8 @@ These activities were carried out for **educational and research purposes**. Pas
 Download *John the Ripper* and *Johnny GUI* from [`openwall.com`](https://www.openwall.com/john/) install directly using `sudo apt install john` & `sudo apt install johnny`.
 
 1. You could extract the `$pdf$` hash from the locked PDF using the following options:
-    - [OnlineHashCrack](http://onlinehashcrack.com/) 
-    - [NetworkWalks/hash-calculator](https://networkwalks.com/hash-calculator/) 
+    - [`OnlineHashCrack`](http://onlinehashcrack.com/) 
+    - [`NetworkWalks/hash-calculator`](https://networkwalks.com/hash-calculator/) 
 2. Save the hash to `hash1.txt`, must start with `$pdf$`.
 3. Open Johnny > `Open password file` > select `hash1.txt`.
 4. Click `Start new attack`: Johnny uses a built-in wordlist by default.
@@ -74,10 +74,10 @@ Download *John the Ripper* and *Johnny GUI* from [`openwall.com`](https://www.op
 
 ### Workflow
 
-1. Open [NetworkWalks/hash-calculator](https://networkwalks.com/hash-calculator/)
+1. Open [`NetworkWalks/hash-calculator`](https://networkwalks.com/hash-calculator/)
 2. Upload the locked PDF > the tool extracts the `$pdf$` hash locally in your browser.
 3. Copy the full `$pdf$` hash.
-4. Open [NetworkWalks/password-cracker](https://networkwalks.com/password-cracker/)
+4. Open [`NetworkWalks/password-cracker`](https://networkwalks.com/password-cracker/)
 5. Paste the hash > click `Start Cracking`.
     - If the password is not found you upload a custom wordlist in `.txt` format.
 6. The tool reports the password, open the PDF and enter it.
